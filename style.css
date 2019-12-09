@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css?family=Tomorrow&display=swap");
+
+body {
+  background-color: rgba(46, 49, 49, 1);
+  color: rgba(236, 236, 236, 1);
+  font-family: "Tomorrow", sans-serif;
+}
+
+.profile-img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  object-position: 50% 10%;
+  border-radius: 50%;
+}
+
+.green-text {
+  color: #5db293;
+}
