@@ -29,16 +29,14 @@
       </button>
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="#"
-              >About <span class="sr-only">(current)</span></a
-            >
+          <li class="nav-item active">
+            <a class="nav-link" href="#about">About</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Work</a>
+          <li class="nav-item active">
+            <a class="nav-link" href="#work">Work</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+          <li class="nav-item active">
+            <a class="nav-link" href="#contact">Contact</a>
           </li>
         </ul>
       </div>
@@ -59,7 +57,7 @@
           width="450"
         />
       </div>
-      <h1 class="mb-5">About Me</h1>
+      <h1 class="mb-5 pt-5 font-weight-bold" id="about">About Me</h1>
       <div class="row align-items-center justify-content-around">
         <img
           class="profile-img"
@@ -77,7 +75,7 @@
       </div>
       <div class="row mt-5">
         <div class="col-4">
-          <h3>Education</h3>
+          <h3 class="green-text">Education</h3>
           <ul class="pl-4">
             <li>
               <p>
@@ -93,7 +91,7 @@
           </ul>
         </div>
         <div class="col-4">
-          <h3>Skill</h3>
+          <h3 class="green-text">Skill</h3>
           <ul class="pl-4">
             <li>Ruby</li>
             <li>Ruby on Rails</li>
@@ -104,41 +102,140 @@
           </ul>
         </div>
         <div class="col-4">
-          <h3>Language</h3>
+          <h3 class="green-text">Language</h3>
           <ul class="pl-4">
             <li>Bahasa Indonesia</li>
             <li>English</li>
           </ul>
         </div>
       </div>
-      <h1 class="mt-5">My Work</h1>
-      <img
-        src="images/Screen Shot 2019-12-09 at 17.41.03.png"
-        alt="work"
-        height="200px"
-        width="300px"
-      />
-      <img
-        src="images/Screen Shot 2019-12-09 at 17.54.26.png"
-        alt="work"
-        height="200px"
-        width="300px"
-      />
-      <img
-        src="images/Screen Shot 2019-12-09 at 17.56.38.png"
-        alt="work"
-        height="200px"
-        width="300px"
-      />
-      <img
-        src="images/Screen Shot 2019-12-09 at 17.58.41.png"
-        alt="work"
-        height="200px"
-        width="300px"
-      />
-      <h1>Contact Me</h1>
-      <i class="fab fa-linkedin"></i>
-      <i class="fab fa-github-square"></i>
+      <h1 class="mt-5 mb-3 pt-5 font-weight-bold" id="work">My Work</h1>
+      <div class="d-flex horizontal-scroll">
+        <div>
+          <div class="position-relative px-5 mr-3 bg-smoke shadow-img rounded">
+            <img
+              src="images/Screenshot_1575889080.png"
+              alt="work"
+              height="400px"
+              width="250px"
+              class="mx-5 shadow"
+            />
+            <a
+              class="img-link-fd p-2 rounded"
+              target="_blank"
+              href="https://food-decoder.com/"
+              ><i class="fas fa-external-link-alt"></i
+            ></a>
+          </div>
+          <h3 class="green-text mt-2">Food Decoder</h3>
+          <p class="pr-4">
+            A web app to scan the barcode and the label of food product then
+            give the allergies alert based on the ingredients of product. This
+            app built using Ruby on rails, Javascript, Google Vision API, Google
+            Translate API, and Scandit API.
+          </p>
+        </div>
+        <div>
+          <div class="position-relative">
+            <img
+              src="images/Screen Shot 2019-12-09 at 17.41.03.png"
+              alt="work"
+              height="400px"
+              width="600px"
+              class="mr-3 rounded shadow-img"
+            />
+            <a
+              class="img-link"
+              target="_blank"
+              href="https://pokedex20-app.herokuapp.com/"
+              ><i class="fas fa-external-link-alt"></i
+            ></a>
+          </div>
+          <h3 class="green-text mt-2">Pokemon App</h3>
+          <p class="pr-4">
+            A web app that listing a pokemon with their moves and types. Users
+            can add pokemon and filter the pokemon based on their types. This
+            app built using Ruby on rails, Javascript, Cloudinary, and several
+            framework like Bootstrap and Typed JS.
+          </p>
+        </div>
+        <div>
+          <div class="position-relative">
+            <img
+              src="images/Screen Shot 2019-12-09 at 17.54.26.png"
+              alt="work"
+              height="400px"
+              width="600px"
+              class="mr-3 rounded shadow-img"
+            />
+            <a
+              class="img-link"
+              target="_blank"
+              href="https://cinehome.herokuapp.com/"
+              ><i class="fas fa-external-link-alt"></i
+            ></a>
+          </div>
+          <h3 class="green-text mt-2">Cinehome</h3>
+          <p class="pr-4">
+            A web app to join or host an event of movie at home. Users can
+            search an event by movie genre and also location based on distance.
+            This app built using Ruby on rails, Javascript, and several
+            framework like select2 and mapbox.
+          </p>
+        </div>
+        <div>
+          <div class="position-relative">
+            <img
+              src="images/Screen Shot 2019-12-09 at 17.56.38.png"
+              alt="work"
+              height="400px"
+              width="600px"
+              class="mr-3 rounded shadow-img"
+            />
+            <a
+              class="img-link"
+              target="_blank"
+              href="https://mister-cocktail20.herokuapp.com/cocktails"
+              ><i class="fas fa-external-link-alt"></i
+            ></a>
+          </div>
+          <h3 class="green-text mt-2">Mister Cocktail</h3>
+          <p class="pr-4">
+            A web app that listing different kind of cocktails. Users can add a
+            cocktail with the ingredients, doses, and picture. This app built
+            using Ruby on rails, Javascript, Cloudinary, and several framework
+            like Bootstrap and Typed JS.
+          </p>
+        </div>
+      </div>
+      <div class="mb-5">
+        <h1 class="my-5 pt-5" id="contact">Contact</h1>
+        <h3>👋 Hi, Let's work together</h3>
+        <h5 class="pl-5">
+          Send me an
+          <a
+            href="mailto:ilhaamrahman@gmail.com?Subject=Let's%20work"
+            target="_top"
+            class="green-text text-decoration-none"
+            >Email <i class="fas fa-envelope"></i
+          ></a>
+        </h5>
+        <h5 class="pl-5">
+          or check my
+          <a
+            href="https://www.linkedin.com/in/ilhamnasution/"
+            class="green-text text-decoration-none"
+            >LinkedIn <i class="fab fa-linkedin"></i>
+          </a>
+          and
+          <a
+            href="https://github.com/ilham-nasution"
+            class="green-text text-decoration-none"
+          >
+            Github <i class="fab fa-github-square"></i
+          ></a>
+        </h5>
+      </div>
     </div>
 
     <script

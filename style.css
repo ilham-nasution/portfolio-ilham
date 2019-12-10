@@ -1,9 +1,18 @@
 @import url("https://fonts.googleapis.com/css?family=Tomorrow&display=swap");
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: rgba(46, 49, 49, 1);
   color: rgba(236, 236, 236, 1);
   font-family: "Tomorrow", sans-serif;
+}
+
+.horizontal-scroll {
+  flex-wrap: nowrap;
+  overflow-x: auto;
 }
 
 .profile-img {
@@ -16,4 +25,42 @@ body {
 
 .green-text {
   color: #5db293;
+}
+
+.green-text:hover {
+  color: #5db293;
+}
+
+.bg-green {
+  background-color: #5db293;
+}
+
+.img-link {
+  position: absolute;
+  bottom: 10px;
+  right: 30px;
+  color: rgba(46, 49, 49, 1);
+}
+
+.img-link:hover {
+  color: rgba(46, 49, 49, 1);
+}
+
+.img-link-fd {
+  position: absolute;
+  bottom: 0px;
+  right: 1px;
+  color: rgba(46, 49, 49, 1);
+}
+
+.img-link-fd:hover {
+  color: rgba(46, 49, 49, 1);
+}
+
+.bg-smoke {
+  background-color: rgba(236, 236, 236, 1);
+}
+
+.shadow-img {
+  box-shadow: 1px 1px 4px -1px rgba(236, 236, 236, 1);
 }
