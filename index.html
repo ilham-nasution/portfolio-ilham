@@ -38,7 +38,7 @@
     </script>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
       <a class="navbar-brand" href="#">IR</a>
       <button
         class="navbar-toggler"
@@ -66,20 +66,22 @@
       </div>
     </nav>
     <div class="container">
-      <div class="row align-items-center vh-100 justify-content-around">
-        <div class="col-6">
-          <h1 class="display-4">
+      <div class="row align-items-center justify-content-around header-height">
+        <div class="col-12 col-lg-6">
+          <h1 class="display-4 h1-header">
             Hi, my name is
             <span class="green-text">Ilham Rahman A Nasution</span>, a Full
             Stack Developer based in Jakarta, Indonesia
           </h1>
         </div>
-        <img
-          src="images/undraw_Hello_qnas.svg"
-          alt="hello"
-          height="450"
-          width="450"
-        />
+        <div class="col-12 col-lg-6 img-header">
+          <img
+            src="images/undraw_Hello_qnas.svg"
+            alt="hello"
+            height="450"
+            width="450"
+          />
+        </div>
       </div>
       <h1 class="mb-5 pt-5 font-weight-bold" id="about">About Me</h1>
       <div class="row align-items-center justify-content-around">
@@ -88,8 +90,8 @@
           src="https://previews.dropbox.com/p/thumb/AAppjIBA3j0HY8BSJSEmgpiNx5YSg9S1PCYd827HgVVdHh4k8g44ym9aUWTWkaM_56MO0pzG0pUpoiZ8Os4DwbTkWu3n2EC60LzJohxUGx8UO2aV_IIWERco6GlB9couWUDblL4MBGU_DRsMxE2Ha-f5878jQCXyZ0Yh9iIX5SsKTcX6RzJDb65Kj2bgv6tnQMRRW1gk-jdywTQCuJ9ezsSR-Zx73NmFmUIQGLxaB3ALY0niYVG7gZLkWP0ldW7linepobmZr7B2HwmqhirVMVQDNlIeJvJlW8DI-u0l4v9U04MexzCcCJixph0s71_ADW_o-ku9mpgTlu1DZ4CzoCcs/p.jpeg?fv_content=true&size_mode=5"
           alt="img"
         />
-        <div class="col-8">
-          <h5>
+        <div class="col-12 col-md-8">
+          <h5 class="mt-3">
             Recently finished Full Stack Web Development bootcamp at Le Wagon
             Tokyo. Developed Food Decoder app to scan a food product from
             barcode and turn into allergies alert. I am now a Full Stack
@@ -98,7 +100,7 @@
         </div>
       </div>
       <div class="row mt-5">
-        <div class="col-4">
+        <div class="col-6 col-sm-4">
           <h3 class="green-text">Education</h3>
           <ul class="pl-4">
             <li>
@@ -114,7 +116,7 @@
             </li>
           </ul>
         </div>
-        <div class="col-4">
+        <div class="col-6 col-sm-4">
           <h3 class="green-text">Skill</h3>
           <ul class="pl-4">
             <li>Ruby</li>
@@ -125,7 +127,7 @@
             <li>Bootstrap</li>
           </ul>
         </div>
-        <div class="col-4">
+        <div class="col-6 col-sm-4">
           <h3 class="green-text">Language</h3>
           <ul class="pl-4">
             <li>Bahasa Indonesia</li>
@@ -134,18 +136,18 @@
         </div>
       </div>
       <h1 class="mt-5 mb-3 pt-5 font-weight-bold" id="work">My Work</h1>
-      <div class="d-flex horizontal-scroll">
+      <div class="d-flex horizontal-scroll img-work">
         <div>
-          <div class="position-relative px-5 mr-3 bg-smoke shadow-img rounded">
+          <div class="position-relative">
             <img
               src="images/Screenshot_1575889080.png"
               alt="work"
               height="400px"
               width="250px"
-              class="mx-5 shadow"
+              class="mr-3 rounded shadow-img"
             />
             <a
-              class="img-link-fd p-2 rounded"
+              class="img-link"
               target="_blank"
               href="https://www.food-decoder.com/"
               ><i class="fas fa-external-link-alt"></i
