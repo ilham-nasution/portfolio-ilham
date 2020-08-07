@@ -1,5 +1,25 @@
 body {
   font-family: "Inconsolata", monospace;
+  background-color: #e4e3d9;
+}
+.navbar {
+  padding: 0px;
+  margin-top: 6px;
+  .navbar-logo {
+    font-size: 40px;
+    border: 3px solid #617559;
+    padding: 5px 5px;
+  }
+  .navbar-menu {
+    font-size: 24px;
+    .nav-link:hover {
+      border-bottom: solid 3px #617559;
+    }
+  }
+}
+
+.h-custom {
+  height: 90vh;
 }
 
 .particle {
@@ -8,7 +28,7 @@ body {
 }
 
 .custom-color {
-  color: #ef8354;
+  color: #617559;
 }
 
 @for $i from 1 through 30 {
@@ -34,6 +54,6 @@ body {
       (random(90) * 1vh),
       (random(100) * 1px)
     );
-    background: hsl(random(360), 70%, 50%);
+    background: #7b794d;
   }
 }
